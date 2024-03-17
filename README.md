@@ -2,12 +2,12 @@ Setup guide 🚀
 
 - do, npm install -> to install all packages, dependencies
 - create .env file, mention PORT 
-- create config.json file inside src/config/ --> put your database details there
+- create config.json file inside src/config/ --> put your database details there --> npx sequelize init
 - to run, npm start
 
 Database setup(MySQL) 🚀
 
-- ignore it (npx sequelize init) -> it creates config.json file & basic folder setup for db. we have already done it. put config.json in .gitignore file
+- npx sequelize init -> Before this, delete model folder and config.json if exists The command creates config.json file & basic folder setup for db. we have already done it. put config.json in .gitignore file
 - after saving your details in config.json,
 - npx sequelize db:create (make sure you are inside src/ folder)
 

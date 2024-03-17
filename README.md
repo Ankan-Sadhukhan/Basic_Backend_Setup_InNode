@@ -8,7 +8,8 @@ Setup guide 🚀
 Database setup(MySQL) 🚀
 
 - ignore it (npx sequelize init) -> it creates config.json file & basic folder setup for db. we have already done it. put config.json in .gitignore file
-- after saving your details in config.json, npx sequelize db:create (make sure you are inside src/ folder)
+- after saving your details in config.json,
+- npx sequelize db:create (make sure you are inside src/ folder)
 
 Creating Model(table)  🚀  * model - singular, table - plural
 - npx sequelize model:generate --name City --attributes name:string, pin:integer  

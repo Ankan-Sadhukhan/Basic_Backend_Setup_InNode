@@ -21,4 +21,4 @@ Undo migrations
 Seeding data to table  🚀
 - npx sequelize seed:generate --name <fileName, eg:add-cities>
 */ add data to this file(add-cities) /*
-- npx sequelize db:seed --seed <fileName eg:add-cities> .
+- npx sequelize db:seed --seed fileName/eg:add-cities .

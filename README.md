@@ -13,7 +13,7 @@ Database setup(MySQL) 🚀
 Creating Model(table)  * model - singular, table - plural
 - npx sequelize model:generate --name City --attributes name:string, pin:integer  
 */ it will create new model, migrations folder. --> You can change properties /*
-- npx sequelize db:migrate //changes visible in MySQL server
+- npx sequelize db:migrate */ changes visible in MySQL server /*
 
 Undo migrations 
 - npx sequelize db:migrate:undo

@@ -1,4 +1,5 @@
-1. create the model with the required fields
+1. create the model with the required fields  //npx sequelize model:generate --name Comment --attributes commentBody:string
+2. changes -->
 static associate(models) {
       // define association here
       this.belongsTo(models.City, {
@@ -63,4 +64,6 @@ module.exports = {
   }
 };
 
-3. do db sync to see changes and also can do undo migrations if required
+3. migrate the model //npx sequelize db:migrate
+4.  do db sync to see changes and also can do undo migrations if required
+
